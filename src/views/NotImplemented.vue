@@ -6,9 +6,9 @@ const { currentRoute } = useRouter()
 
 <template>
   <section
-    class="bg-blue-900 text-white flex flex-col items-center justify-center h-[calc(100vh-90px)] gap-8"
+    class="bg-blue-900 text-white flex flex-col items-center justify-center h-[calc(100vh-90px)] gap-8 px-4"
   >
-    <h1 class="text-5xl">
+    <h1 class="text-5xl text-center">
       <span class="capitalize text-green-400">{{ currentRoute.name }}</span> Not Implemented
     </h1>
     <RouterLink to="/" class="hover:text-green-400">Back to home</RouterLink>
