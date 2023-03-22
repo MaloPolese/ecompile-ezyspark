@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import FeaturesSection from '@/components/FeaturesSection.vue'
+import MainJumbotron from '../components/MainJumbotron.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <MainJumbotron />
+  <FeaturesSection />
 </template>
