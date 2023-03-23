@@ -4,7 +4,7 @@ import TextArea from './form/TextArea.vue'
 </script>
 
 <template>
-  <form class="bg-white rounded min-w-[350px] shadow-2xl p-9 flex flex-col gap-8">
+  <form class="bg-white rounded min-w-[300px] md:min-w-[370px] shadow-2xl p-9 flex flex-col gap-8">
     <header class="flex flex-col gap-4">
       <h2 class="font-bold text-2xl">Talk to us</h2>
       <p class="text-base">
